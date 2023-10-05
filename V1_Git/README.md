@@ -1,8 +1,8 @@
-Fall Detection System using OpenCV
-Overview
+# Fall Detection System using OpenCV
+# Overview
 This repository contains a Python script for a fall detection system utilizing the OpenCV computer vision library. The system processes video input, identifies potential falls based on changes in object dimensions, and triggers alerts, including notifications through Telegram.
 
-Features
+# Features
 Background Subtraction: Utilizes the MOG2 background subtraction algorithm to isolate foreground objects from video frames.
 
 Contour Analysis: Detects contours in the foreground mask, enabling the identification of objects and their key features.
